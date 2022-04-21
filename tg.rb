@@ -3,16 +3,16 @@ class Tg < Formula
 
   desc "Terminal telegram client"
   homepage "https://github.com/paul-nameless/tg"
-  url "https://github.com/paul-nameless/tg/archive/refs/tags/v0.18.0.tar.gz"
-  sha256 "553a8f5683dd46b5e1f09d910b82fab44ef1533b57f4a68ac03c39fbe156ae66"
+  url "https://github.com/paul-nameless/tg/archive/refs/tags/v0.19.0.tar.gz"
+  sha256 "216aec85b6224415a88e7b124a5fed3b310e4286171cb23a8d91f4c64a69d7dc"
   license "Unlicense"
 
   depends_on "python"
   depends_on "tdlib"
 
   resource "python-telegram-patched" do
-    url "https://github.com/paul-nameless/python-telegram/archive/refs/tags/0.14.0-patched.tar.gz"
-    sha256 "7f3af4cb722f37bd65b0a49da448b7d26afa7f2de761aed4828018155e2e78b4"
+    url "https://github.com/paul-nameless/python-telegram/archive/refs/tags/0.15.0-patched.tar.gz"
+    sha256 "0602cf9d9dc2c932576104ee3d088a2299058583a2fcfb339b2aa8188eede0c3"
   end
 
   def install
